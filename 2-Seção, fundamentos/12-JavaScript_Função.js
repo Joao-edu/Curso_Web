@@ -17,7 +17,7 @@ const imprimirSoma1= function (a, b){
     }
 
 imprimirSoma1(2, 3)
-    
+  
 
 //Armazenando uma função arrow em uma variavel
 const soma1 = (a, b) => {
@@ -26,7 +26,10 @@ const soma1 = (a, b) => {
     
     console.log(soma(2, 8))
 
-    // Retorno implicito
+// Retorno implicito
 const subtracao = (a, b) => a - b
 console.log(subtracao(8, 2))        
+
+
+
 
