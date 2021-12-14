@@ -18,3 +18,13 @@ console.log(sera)
 
     //console.log(local)
     teste()
+
+
+    var numero = 1
+        
+    { 
+      var numero = 2 //Sobrescre o valor de fora 
+       console.log("dentro =", numero)
+    }
+    
+    console.log('fora =', numero)
