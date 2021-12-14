@@ -1,8 +1,12 @@
+
+// Loop Usando Var
+
 for( var i = 0; i < 10; i++){
     console.log(i)
 }
 console.log("i =", i)
 
+// Loop Usando Let
 
 for( let a = 0; a < 10; a++){
     console.log(a)
@@ -12,7 +16,7 @@ for( let a = 0; a < 10; a++){
 //console.log("i =", a) // erro pois esta fora do escopo
 
 
-//Usando Var
+// Loop Usando Var
 
 var funcs = []
 
@@ -25,7 +29,7 @@ for(var b = 0; b < 10; b++){
 funcs[2]()//Como a variavel Var não tem scopo do bloco não respeita 
 funcs[8]()//o valor de b, um erro da java script
 
-//Usando Let
+// Loop Usando Let
 
 var funcs1 = []
 
